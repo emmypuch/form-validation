@@ -13,7 +13,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #041146;
+  background: #02071d;
 }
 
 ::selection {
@@ -77,8 +77,8 @@ form input {
   outline: none;
   padding: 0 45px;
   background: none;
-  font-size: 1rem;
-  caret-color: #5372f0;
+  font-size: 0.8rem;
+  caret-color: #0f173a;
   border-radius: 5px;
   border: 1px solid #bfbfbf;
   border-bottom-width: 2px;
@@ -87,7 +87,7 @@ form input {
 
 form .field input:focus,
 form .field.valid input {
-  border-color: #5372f0;
+  border-color: #0f173a;
 }
 
 form .field.shake input,
@@ -98,7 +98,7 @@ form .field.error input {
 .field .input-area img {
   position: absolute;
   top: 50%;
-  font-size: 18px;
+  font-size: 0.8rem;
   pointer-events: none;
   transform: translateY(-50%);
 }
@@ -115,7 +115,7 @@ form .field.error input {
 }
 form input:focus ~ .icon,
 form .field.valid .icon {
-  color: #5372f0;
+  color: #0f173a;
 }
 
 form .field.shake input:focus ~ .icon,
@@ -149,7 +149,7 @@ form .password-text {
 }
 
 .wrapper a {
-  color: #5372f0;
+  color: #0f173a;
   text-decoration: none;
 }
 
@@ -163,14 +163,14 @@ form input[type="submit"] {
   color: #fff;
   padding: 0;
   border: none;
-  background: #5372f0;
+  background: #0f173a;
   cursor: pointer;
   border-bottom: 2px solid rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease;
 }
 
 form input[type="submit"]:hover {
-  background: #2c52ed;
+  background: #192249;
 }
 
 /* Image Icons Styles */
